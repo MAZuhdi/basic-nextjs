@@ -1,5 +1,9 @@
+import Layout from "../../components/Layout";
+
 export default function userDetail() {
   return (
-    <div>userDetail</div>
+    <Layout>
+        <div>userDetail</div>
+    </Layout>
   )
 }

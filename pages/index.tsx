@@ -1,15 +1,13 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 import type { NextPage } from 'next';
 import styles from '../styles/Home.module.css';
+import Layout from '../components/Layout';
 
 const Home: NextPage = () => {
   return (
-    <>
-      <Header />
+
+    <Layout>
       <h1 className={styles['title-homepage']}>Welcome, Agung</h1>
-      <Footer />
-    </>
+    </Layout>
   )
 }
 

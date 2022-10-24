@@ -1,7 +1,9 @@
-import React from 'react'
+import Layout from "../../components/Layout";
 
 export default function usersPage() {
   return (
-    <div>usersPage</div>
+    <Layout>
+        <div>usersPage</div>
+    </Layout>
   )
 }
