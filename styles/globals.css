@@ -33,6 +33,12 @@ a {
   color: red;
 }
 
+/* Ini apa? */
 #__next {
   height: 100%;
+}
+
+.title-not-found {
+  color: darkgray;
+  text-align: center;
 }
